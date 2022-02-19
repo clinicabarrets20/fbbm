@@ -26,7 +26,7 @@ Devise.setup do |config|
   # with default "from" parameter.
   config.scoped_views = true
   config.mailer_sender = 'please-change-me-at-config-initializers-devise@example.com'
-  config.omniauth :facebook, '', '', token_params: { parse: :json }
+  config.omniauth :facebook, '1089408825170653', '82bef76cdb1b667683a7b764f6367f3a', token_params: { parse: :json }
   # Configure the class responsible to send e-mails.
   # config.mailer = 'Devise::Mailer'
 
